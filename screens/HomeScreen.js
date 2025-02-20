@@ -14,6 +14,18 @@ export default function HomeScreen({ navigation }) {
       >
         <Text style={styles.buttonText}>Ignite the Fire</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate('Lust')}
+      >
+        <Text style={styles.buttonText}>Drown in Lust</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate('Dice')}
+      >
+        <Text style={styles.buttonText}>Roll the Dice</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -44,6 +56,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     paddingHorizontal: 30,
     borderRadius: 25,
+    marginVertical: 10,
   },
   buttonText: {
     color: '#fff',
