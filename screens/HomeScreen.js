@@ -3,62 +3,71 @@ import { StyleSheet, Text, View, TouchableOpacity, ScrollView } from 'react-nati
 
 export default function HomeScreen({ navigation }) {
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-      <Text style={styles.title}>Spicy Couple Challenge</Text>
-      <Text style={styles.subtitle}>
-        Dare to unleash your filthiest desires? Step into the inferno...
-      </Text>
-      {/* Debug Text to Confirm Rendering */}
-      <Text style={styles.debugText}>Buttons Loading Below...</Text>
-      <TouchableOpacity
-        style={[styles.button, styles.button1]}
-        onPress={() => navigation.navigate('Challenge')}
+    <View style={{ flex: 1 }}>
+      <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+        <Text style={styles.title}>Spicy Couple Challenge</Text>
+        <Text style={styles.subtitle}>
+          Dare to unleash your filthiest desires? Step into the inferno...
+        </Text>
+        {/* Debug Text to Confirm Rendering */}
+        <Text style={styles.debugText}>Buttons Loading Below...</Text>
+        <TouchableOpacity
+          style={[styles.button, styles.button1]}
+          onPress={() => navigation.navigate('Challenge')}
+        >
+          <Text style={styles.buttonText}>Ignite the Fire</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button2]}
+          onPress={() => navigation.navigate('Lust')}
+        >
+          <Text style={styles.buttonText}>Drown in Lust</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button3]}
+          onPress={() => navigation.navigate('Dice')}
+        >
+          <Text style={styles.buttonText}>Roll the Dice</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button4]}
+          onPress={() => navigation.navigate('ScratchOff')}
+        >
+          <Text style={styles.buttonText}>Scratch Off</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button5]}
+          onPress={() => navigation.navigate('SqueezeLickSuck')}
+        >
+          <Text style={styles.buttonText}>Squeeze | Lick | Suck</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button6]}
+          onPress={() => navigation.navigate('SpotifyPlaylist')}
+        >
+          <Text style={styles.buttonText}>Spotify Sex-Songs</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button7]}
+          onPress={() => navigation.navigate('DateNightQuestion')}
+        >
+          <Text style={styles.buttonText}>Date Night Qs</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.button, styles.button8]}
+          onPress={() => navigation.navigate('LongDistance')}
+        >
+          <Text style={styles.buttonText}>Long Distance</Text>
+        </TouchableOpacity>
+      </ScrollView>
+      
+      <TouchableOpacity 
+        style={styles.floatingButton}
+        onPress={() => navigation.navigate('Home')}
       >
-        <Text style={styles.buttonText}>Ignite the Fire</Text>
+        <Text style={styles.floatingButtonText}>🏠</Text>
       </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button2]}
-        onPress={() => navigation.navigate('Lust')}
-      >
-        <Text style={styles.buttonText}>Drown in Lust</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button3]}
-        onPress={() => navigation.navigate('Dice')}
-      >
-        <Text style={styles.buttonText}>Roll the Dice</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button4]}
-        onPress={() => navigation.navigate('ScratchOff')}
-      >
-        <Text style={styles.buttonText}>Scratch Off</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button5]}
-        onPress={() => navigation.navigate('SqueezeLickSuck')}
-      >
-        <Text style={styles.buttonText}>Squeeze | Lick | Suck</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button6]}
-        onPress={() => navigation.navigate('SpotifyPlaylist')}
-      >
-        <Text style={styles.buttonText}>Spotify Sex-Songs</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button7]}
-        onPress={() => navigation.navigate('DateNightQuestion')}
-      >
-        <Text style={styles.buttonText}>Date Night Qs</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={[styles.button, styles.button8]}
-        onPress={() => navigation.navigate('LongDistance')}
-      >
-        <Text style={styles.buttonText}>Long Distance</Text>
-      </TouchableOpacity>
-    </ScrollView>
+    </View>
   );
 }
 
@@ -128,5 +137,24 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginBottom: 10,
     fontStyle: 'italic',
+  },
+  floatingButton: {
+    position: 'absolute',
+    left: 20,
+    bottom: 20,
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    backgroundColor: '#ff1a1a',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  floatingButtonText: {
+    fontSize: 24,
   },
 });

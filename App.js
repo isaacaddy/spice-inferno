@@ -5,7 +5,11 @@ import HomeScreen from './screens/HomeScreen';
 import ChallengeScreen from './screens/ChallengeScreen';
 import LustScreen from './screens/LustScreen';
 import DiceScreen from './screens/DiceScreen';
+import ScratchOffScreen from './screens/ScratchOffScreen';
 import SqueezeLickSuckScreen from './screens/SqueezeLickSuckScreen';
+import SpotifyPlaylistScreen from './screens/SpotifyPlaylistScreen';
+import DateNightQuestionScreen from './screens/DateNightQuestionScreen';
+import LongDistanceScreen from './screens/LongDistanceScreen';
 
 const Stack = createStackNavigator();
 
@@ -46,10 +50,46 @@ export default function App() {
           }} 
         />
         <Stack.Screen 
-          name="SqueezeLickSuck" 
-          component={SqueezeLickSuckScreen}
+          name="ScratchOff" 
+          component={ScratchOffScreen} 
           options={{ 
-            title: 'Squeeze Lick Suck', 
+            title: 'Scratch Off Game', 
+            headerStyle: { backgroundColor: '#ff1a1a' }, 
+            headerTintColor: '#fff' 
+          }} 
+        />
+        <Stack.Screen 
+          name="SqueezeLickSuck" 
+          component={SqueezeLickSuckScreen} 
+          options={{ 
+            title: 'Squeeze | Lick | Suck', 
+            headerStyle: { backgroundColor: '#ff1a1a' }, 
+            headerTintColor: '#fff' 
+          }} 
+        />
+        <Stack.Screen 
+          name="SpotifyPlaylist" 
+          component={SpotifyPlaylistScreen} 
+          options={{ 
+            title: 'Spotify Sex-Songs', 
+            headerStyle: { backgroundColor: '#ff1a1a' }, 
+            headerTintColor: '#fff' 
+          }} 
+        />
+        <Stack.Screen 
+          name="DateNightQuestion" 
+          component={DateNightQuestionScreen} 
+          options={{ 
+            title: 'Date Night Questions', 
+            headerStyle: { backgroundColor: '#ff1a1a' }, 
+            headerTintColor: '#fff' 
+          }} 
+        />
+        <Stack.Screen 
+          name="LongDistance" 
+          component={LongDistanceScreen} 
+          options={{ 
+            title: 'Long Distance Game', 
             headerStyle: { backgroundColor: '#ff1a1a' }, 
             headerTintColor: '#fff' 
           }} 
