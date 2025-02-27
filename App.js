@@ -5,6 +5,7 @@ import HomeScreen from './screens/HomeScreen';
 import ChallengeScreen from './screens/ChallengeScreen';
 import LustScreen from './screens/LustScreen';
 import DiceScreen from './screens/DiceScreen';
+import SqueezeLickSuckScreen from './screens/SqueezeLickSuckScreen';
 
 const Stack = createStackNavigator();
 
@@ -40,6 +41,15 @@ export default function App() {
           component={DiceScreen} 
           options={{ 
             title: 'Intimacy Dice', 
+            headerStyle: { backgroundColor: '#ff1a1a' }, 
+            headerTintColor: '#fff' 
+          }} 
+        />
+        <Stack.Screen 
+          name="SqueezeLickSuck" 
+          component={SqueezeLickSuckScreen}
+          options={{ 
+            title: 'Squeeze Lick Suck', 
             headerStyle: { backgroundColor: '#ff1a1a' }, 
             headerTintColor: '#fff' 
           }} 
