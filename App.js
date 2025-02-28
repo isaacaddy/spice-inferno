@@ -18,6 +18,7 @@ import NewLocationsScreen from './screens/NewLocationsScreen';
 import SixtyNineScreen from './screens/SixtyNineScreen';
 import SwingingSwappingScreen from './screens/SwingingSwappingScreen';
 import RoleplayScreen from './screens/RoleplayScreen';
+import ChallengeScreen from './screens/ChallengeScreen';
 
 const Stack = createStackNavigator();
 

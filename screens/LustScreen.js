@@ -19,6 +19,7 @@ const lustGames = {
     "Slide your wet panties down your legs, let him smell your arousal, and whisper how you're aching for his tongue.",
     "Press your tits against his chest, rock your hips slow, and tell him your pussy's crying for his thick shaft.",
     "Run your tongue up his spine, press your naked heat against his back, and whimper how you'll cum the second he's in you.",
+     "Edge them for five minutes straight",
   ],
   inferno: [
     "Get on your knees, suck his dick like it's your last meal, and tell him you're dripping for him to ram you senseless.",

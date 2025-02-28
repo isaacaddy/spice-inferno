@@ -8,11 +8,19 @@ const teaseChallenges = {
   bedroom: ["Lick their nipples until they're rock hard, right on the bed.", "Grind your naked crotch against theirs under the sheets.", "Tease their ass with a feather from the pillow."],
   kitchen: ["Drip honey on their chest and lick it off the counter.", "Spank their bare ass with a spatula.", "Press your naked body against theirs by the fridge."],
   car: ["Finger them slow in the backseat until they moan.", "Rub their crotch through their pants in the driver's seat.", "Kiss their neck hard while parked."],
+  bedroom: ["Nibble your partner’s ear while whispering something sweet on the bed.", "Trail your fingers down their spine—slowly, under the sheets.", "Kiss their neck until they giggle or squirm, lying together."],
+  kitchen: ["Drip honey on their chest and lick it off the counter.", "Spank their bare ass with a spatula softly.", "Press your naked body against theirs by the fridge, teasing."],
+  car: ["Whisper naughty secrets while stroking their thigh in the backseat.", "Rub their neck gently while parked, building anticipation.", "Kiss their hand softly, teasing them in the driver’s seat."],
+
 };
 const hotChallenges = {
   bedroom: ["Rip their clothes off and fuck them against the headboard.", "Suck their clit/dick until they're dripping on the mattress.", "Pin them face-down and grind until they beg."],
   kitchen: ["Bend them over the table and eat their ass.", "Smear whipped cream on their genitals and devour it.", "Fuck them against the sink—hard and fast."],
   car: ["Pull their pants down and ride them in the backseat.", "Suck them off while they grip the wheel.", "Finger them deep under a blanket in the car."],
+  bedroom: ["Strip down to your underwear and straddle your partner on the bed for a minute.", "Tease their inner thighs with your lips—no hands allowed, on the mattress.", "Press yourself against them and grind slowly under the covers."],
+  kitchen: ["Bend them over the table and bite their neck hard.", "Smear whipped cream on their genitals and lick it off the counter.", "Fuck them against the sink—hard and fast, but quiet."],
+  car: ["Pull their pants down and ride them in the backseat, slow and deep.", "Suck them off while they grip the wheel, parked somewhere private.", "Finger them deep under a blanket in the car, building heat."],
+
 };
 const infernoChallenges = {
   bedroom: ["Tie them to the bedposts and fuck them until they scream your name.", "Shove their face in the pillow and pound them from behind.", "Blindfold them and make them cum twice before you stop."],

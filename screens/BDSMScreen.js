@@ -9,39 +9,41 @@ const tips = [
   "Use a gag, then control their breathing with slow, firm touches.",
   "Tie their ankles, spread them, and edge them with a vibrator.",
   "Whip their thighs, then soothe with oil—build trust and heat.",
+
+ // New 20 BDSM Tips (Explicit, Safe, and Seductive)
+ "Bind their wrists behind their back, kneel them down, and tease their nipples with a feather until they squirm.",
+ "Blindfold them, use a crop on their inner thighs, then reward with deep, slow kisses.",
+ "Secure their ankles to a spreader bar, spank their ass with a belt, then massage with lotion.",
+ "Gag them, tie their hands above their head, and edge their clit/dick with a buzzing toy.",
+ "Wrap a silk rope around their chest, pull gently, and use a cane on their calves—softly.",
+ "Blindfold and handcuff them, drip wax on their stomach, then lick it off slowly.",
+ "Tie their wrists to the headboard, tease their ass with a plug, then spank with a paddle.",
+ "Use a collar and leash, lead them to the bed, and whisper dirty orders while flogging lightly.",
+ "Bind their ankles together, spread their thighs, and tease their entrance with a vibrator until they plead.",
+ "Blindfold, gag, and tie them spread-eagle—alternate ice and warm oil on their skin.",
+ "Secure their wrists with leather cuffs, spank their nipples lightly, then soothe with your tongue.",
+ "Use a whip on their back, then kiss each mark, building trust and heat.",
+ "Tie their hands behind, bend them over, and edge their ass with a finger—slow and firm.",
+ "Blindfold and chain them to a chair, tease their thighs with a crop, then reward with oral.",
+ "Wrap a rope harness around their torso, pull tight, and use a flogger on their thighs—build intensity.",
+ "Gag and blindfold them, tie their ankles apart, and tease their clit/dick with a feather duster.",
+ "Secure their wrists and ankles, drip hot wax on their chest, then cool with ice and kisses.",
+ "Use a paddle on their ass, then massage deeply, whispering how much you crave their submission.",
+ "Blindfold, cuff their wrists, and use a vibrator on their nipples—edge until they whimper.",
+ "Tie their legs apart, spank with a crop, then soothe with slow, deep finger play.",
+ "Bind their hands overhead, tease their ass with a plug, then flog their thighs until they moan.",
+ "Gag them, tie to the bed, and alternate spanking with gentle caresses—build desperate need.",
+
+ // New 20 BDSM Tips (Explicit, Safe, and Seductive)
+ "Use a soft cuffs on wrists—tie to bedposts, then tease with a flogger.",
+ "Blindfold and whisper commands—spank lightly until they beg.",
+ "Introduce a paddle—alternate spanks with gentle kisses on their ass.",
+ "Use a gag, then control their breathing with slow, firm touches.",
+ "Tie their ankles, spread them, and edge them with a vibrator.",
+ "Whip their thighs, then soothe with oil—build trust and heat.",
+
 ];
-const activities = [
-  // General Safety Tips
-  "Establish safe words before starting",
-  "Discuss boundaries and limits openly",
-  "Start gentle and build intensity slowly",
-  "Check in frequently with each other",
-  "Keep safety scissors nearby for restraints",
-  
-  // For Dominants
-  "Use silk scarves for gentle restraint",
-  "Practice light spanking with hands only",
-  "Give firm but caring commands",
-  "Control pleasure with edging techniques",
-  "Lead with confidence and care",
-  "Write commands on partner's body",
-  
-  // For Submissives
-  "Follow commands with enthusiasm",
-  "Communicate limits clearly",
-  "Express pleasure vocally",
-  "Stay in character during roleplay",
-  "Practice surrender with trust",
-  
-  // Advanced Play
-  "Use ice cubes for temperature play",
-  "Try sensory deprivation with blindfolds",
-  "Experiment with gentle hair pulling",
-  "Use feathers for sensory play",
-  "Mix pleasure with light pain",
-  "Practice rope art safely",
-  "Create anticipation with teasing"
-];
+
 export default function BDSMScreen() {
   const [tip, setTip] = useState('');
   const [customTips, setCustomTips] = useState([]);
