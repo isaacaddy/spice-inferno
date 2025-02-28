@@ -3,7 +3,36 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import * as Speech from 'expo-speech';
 
 const questions = [
+  // Romantic Questions
   "What's your favorite memory of us together?",
+  "When did you first know you wanted me?",
+  "What makes you feel most loved?",
+  "What's your ultimate fantasy with me?",
+  
+  // Intimate Questions
+  "Where do you love being touched the most?",
+  "What's your favorite position and why?",
+  "What drives you wild in bed?",
+  "What's something new you'd like to try?",
+  
+  // Future Dreams
+  "What's your perfect romantic getaway?",
+  "How can we spice up our routine?",
+  "What's your biggest turn-on?",
+  "Where's the wildest place you want to do it?",
+  
+  // Deep Connection
+  "What makes you feel most desired?",
+  "How can I make you feel more pleasure?",
+  "What's your favorite way to be seduced?",
+  "What's your secret fantasy you haven't shared?",
+  
+  // Playful Questions
+  "What outfit drives you crazy?",
+  "Where should we have our next adventure?",
+  "What's the hottest thing I do?",
+  "What would you do if we had 24 hours alone?",
+  
   "What's one thing you'd like to try in bed that we haven't yet?",
   "Where would you take me on your dream date?",
   "What's the sexiest thing about me?",

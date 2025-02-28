@@ -3,8 +3,45 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import * as Speech from 'expo-speech';
 
 const activities = [
+  // Digital Intimacy
+  "Send a steamy video call invitation",
+  "Share photos of what you're wearing",
+  "Write detailed fantasies via text",
+  "Have a virtual date night with wine",
+  
+  // Voice & Video
+  "Describe what you'd do if together",
+  "Watch each other pleasure yourselves",
+  "Give instructions over video call",
+  "Share your favorite intimate memories",
+  
+  // Interactive Play
+  "Control each other's toys remotely",
+  "Take turns giving strip commands",
+  "Play truth or dare over video",
+  "Send voice messages describing desires",
+  
+  // Anticipation Building
+  "Plan your next intimate meetup",
+  "Share daily teasing photos",
+  "Write steamy countdown messages",
+  "Create a shared pleasure playlist",
+  
+  // Creative Connection
+  "Draw each other something naughty",
+  "Record yourself moaning their name",
+  "Send surprise intimate gifts",
+  "Create a digital scavenger hunt",
+  
+  // Virtual Romance
+  "Have a synchronized bath time",
+  "Read erotic stories together",
+  "Plan future adventures in detail",
+  "Share your wildest fantasies",
+  
+  // Additional Activities
   "Send a steamy voice message describing what you'd do to them",
-  "Take a sexy selfie (keep it classy) and send it",
+  "Take a sexy selfie and send it",
   "Write them an erotic story about your next meetup",
   "Have a video call date - dress up nice for each other",
   "Play truth or dare over text for 10 minutes",
@@ -12,7 +49,7 @@ const activities = [
   "Share your favorite fantasy about them in detail",
   "Do a virtual workout together - show off those moves",
   "Have a virtual dinner date - same meal, different places",
-  "Send them a list of 5 things you'll do when reunited",
+  "Send them a list of 5 things you'll do when reunited"
 ];
 
 export default function LongDistanceScreen() {

@@ -1,6 +1,46 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, ScrollView, ImageBackground } from 'react-native';
 
+const menuItems = [
+  {
+    title: 'Lustful Games',
+    subtitle: 'Explore passion',
+    route: 'Lust',
+    color: '#ff1a1a'
+  },
+  {
+    title: 'Intimacy Dice',
+    subtitle: 'Roll for pleasure',
+    route: 'Dice',
+    color: '#ff4d4d'
+  },
+  {
+    title: 'Squeeze Lick Suck',
+    subtitle: 'Spice up foreplay',
+    route: 'SqueezeLickSuck',
+    color: '#ff1a75'
+  },
+  {
+    title: 'Passion Masterclass',
+    subtitle: 'Advanced techniques',
+    route: 'PassionMasterclass',
+    color: '#800080'
+  },
+  {
+    title: 'Date Night Questions',
+    subtitle: 'Deep connection',
+    route: 'DateNightQuestion',
+    color: '#ff66b3'
+  },
+  {
+    title: 'Long Distance Love',
+    subtitle: 'Keep passion alive',
+    route: 'LongDistance',
+    color: '#ff9966'
+  }
+];
+
+// Component implementation with navigation and styling
 export default function HomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1 }}>
@@ -9,16 +49,15 @@ export default function HomeScreen({ navigation }) {
         <Text style={styles.subtitle}>
           Dare to unleash your filthiest desires? Step into the inferno...
         </Text>
-        {/* Debug Text to Confirm Rendering */}
-        <Text style={styles.debugText}>Buttons Loading Below...</Text>
+        {/* Regular buttons */}
         <TouchableOpacity
           style={[styles.button, styles.button1]}
           onPress={() => navigation.navigate('Challenge')}
         >
-          <Text style={styles.buttonText}>Ignite the Fire</Text>
+          <Text style={styles.buttonText}>X-Rated Challenges</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[styles.button, styles.button2]}
+          style={[styles.button, styles.button1]}
           onPress={() => navigation.navigate('Lust')}
         >
           <Text style={styles.buttonText}>Drown in Lust</Text>
@@ -59,14 +98,20 @@ export default function HomeScreen({ navigation }) {
         >
           <Text style={styles.buttonText}>Long Distance</Text>
         </TouchableOpacity>
-      </ScrollView>
-      
-      <TouchableOpacity 
-        style={styles.floatingButton}
-        onPress={() => navigation.navigate('Home')}
+        <TouchableOpacity
+        style={[styles.button, styles.button9]}
+        onPress={() => navigation.navigate('Roleplay')}
       >
-        <Text style={styles.floatingButtonText}>🏠</Text>
+        <Text style={styles.buttonText}>Roleplay Games</Text>
       </TouchableOpacity>
+    {/* Floating Passion Masterclass Button */}
+    <TouchableOpacity 
+      style={styles.floatingButton}
+      onPress={() => navigation.navigate('PassionMasterclass')}
+    >
+      <Text style={styles.floatingButtonText}>🎓</Text>
+    </TouchableOpacity>
+      </ScrollView>
     </View>
   );
 }
@@ -79,7 +124,7 @@ const styles = StyleSheet.create({
   contentContainer: {
     alignItems: 'center',
     padding: 20,
-    paddingTop: 100, // Add top padding
+    paddingTop: 100, // Added top padding to move content down
   },
   title: {
     fontSize: 36,
@@ -99,7 +144,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     borderRadius: 25,
     marginVertical: 8,
-    width: '80%',
+    width: '75%',
     alignItems: 'center',
     elevation: 5, // Shadow for depth
   },
@@ -118,34 +163,31 @@ const styles = StyleSheet.create({
     backgroundColor: '#ff8080', // Light red for Dice
   },
   button4: {
-    backgroundColor: '#b30000', // Dark red for Scratch Off (inspired by banana icon)
+    backgroundColor: '#b30000', // Dark red for Scratch Off
   },
   button5: {
-    backgroundColor: '#ff4040', // Bright pink for Squeeze | Lick | Suck (inspired by lips)
+    backgroundColor: '#ff4040', // Bright pink for Squeeze | Lick | Suck
   },
   button6: {
-    backgroundColor: '#ff6666', // Pink for Spotify (inspired by music icon)
+    backgroundColor: '#ff6666', // Pink for Spotify
   },
   button7: {
-    backgroundColor: '#ff8080', // Light red for Date Night (inspired by heart)
+    backgroundColor: '#ff8080', // Light red for Date Night
   },
   button8: {
-    backgroundColor: '#ff9999', // Soft red for Long Distance (inspired by heart)
+    backgroundColor: '#ff9999', // Soft red for Long Distance
   },
-  debugText: {
-    color: '#fff',
-    fontSize: 14,
-    marginBottom: 10,
-    fontStyle: 'italic',
+  button9: {
+    backgroundColor: '#800080', // Purple for Passion Masterclass (inspired by screenshot)
   },
   floatingButton: {
     position: 'absolute',
     left: 20,
-    bottom: 20,
+    bottom: -30, // Changed from 20 to 40 to push it down
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: '#ff1a1a',
+    backgroundColor: '#800080', // Purple color from button9
     justifyContent: 'center',
     alignItems: 'center',
     elevation: 8,
@@ -153,6 +195,13 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
+  },
+  floatingButtonText: {
+    fontSize: 24,
+  },
+  buttonChallenge: {
+    backgroundColor: '#ff3333', // Bright red for Challenge
+    marginBottom: 15,
   },
   floatingButtonText: {
     fontSize: 24,

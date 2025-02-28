@@ -33,6 +33,31 @@ const actions = [
   "Squeeze their sides while kissing down their neck.",
   "Lick their palm while maintaining eye contact.",
   "Suck their neck until they beg for more.",
+  // New 20 Crazy, Explicit Actions
+  "Squeeze their ass brutally, then spank it raw while licking their crack.",
+  "Lick their neck wildly, biting hard and sucking until they gasp.",
+  "Suck their nipples savagely, twisting them while grinding your crotch.",
+  "Squeeze their thighs ferociously, clawing up to their dripping pussy/cock.",
+  "Lick their lips like a beast, then bite deep and suck their tongue.",
+  "Suck their fingers like you’re devouring their dick/pussy, moaning loud.",
+  "Squeeze their chest violently, whispering filthy threats of domination.",
+  "Lick their inner thighs maniacally, stopping just to bite their flesh.",
+  "Suck their earlobe like a vampire, growling as you grind against them.",
+  "Squeeze their hips possessively, pulling them into a frenzied grind.",
+  "Lick their collarbone like a predator, squeezing their waist until they whimper.",
+  "Suck their shoulder ravenously, leaving marks while you thrust against them.",
+  "Squeeze their inner thighs brutally, kissing their neck with animal hunger.",
+  "Lick from their ear to their chest, biting down hard on their nipples.",
+  "Suck their bottom lip like you’re starving, then bite until they bleed lightly.",
+  "Squeeze their hips wildly, kissing down their stomach to their soaking crotch.",
+  "Lick circles around their nipples like a fiend, then suck until they scream.",
+  "Suck their neck like a beast, clawing their back as you grind harder.",
+  "Squeeze their ass savagely, pulling them into a raw, desperate grind.",
+  "Lick along their spine like a wild animal, biting their lower back hard.",
+  "Squeeze thighs while licking slowly",
+  "Suck nipples while squeezing gently",
+   "Use ice cube while licking for temperature play"
+
 ];
 
 export default function SqueezeLickSuckScreen() {

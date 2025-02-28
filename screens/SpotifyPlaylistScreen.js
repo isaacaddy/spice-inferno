@@ -1,6 +1,45 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Linking } from 'react-native';
-
+const songs = [
+  // Slow and Sensual
+  "Earned It - The Weeknd",
+  "Wicked Games - The Weeknd",
+  "Often - The Weeknd",
+  "Skin - Rihanna",
+  "Love to Love You Baby - Donna Summer",
+  
+  // Rhythm and Beat
+  "Motivation - Normani",
+  "Partition - Beyoncé",
+  "Pony - Ginuwine",
+  "Closer - Nine Inch Nails",
+  "S&M - Rihanna",
+  
+  // Modern Hits
+  "Streets - Doja Cat",
+  "34+35 - Ariana Grande",
+  "Watermelon Sugar - Harry Styles",
+  "Die For You - The Weeknd",
+  "Physical - Dua Lipa",
+  
+  // Classic Mood
+  "Let's Get It On - Marvin Gaye",
+  "Sexual Healing - Marvin Gaye",
+  "Crazy Love - Van Morrison",
+  "I'll Make Love to You - Boyz II Men",
+  
+  // Alternative Vibes
+  "Glory Box - Portishead",
+  "Wicked Game - Chris Isaak",
+  "Fade Into You - Mazzy Star",
+  "Do I Wanna Know? - Arctic Monkeys",
+  
+  // Dance & Energy
+  "Love Sex Magic - Ciara ft. Justin Timberlake",
+  "Buttons - The Pussycat Dolls",
+  "Climax - Usher",
+  "Body Party - Ciara"
+];
 export default function SpotifyPlaylistScreen() {
   const openSpotify = () => {
     Linking.openURL('https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM'); // Example sensual playlist URL
